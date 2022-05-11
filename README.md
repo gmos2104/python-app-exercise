@@ -10,3 +10,9 @@
 
 ## Extra points
 - Use _requests_ library from [PyPI](https://pypi.org/project/requests/)
+
+
+## Running tests
+
+- Install dev dependencies `pip install -r requirements-dev.txt`
+- Run pytest `pytest`
