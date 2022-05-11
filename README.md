@@ -12,6 +12,15 @@
 - Use _requests_ library from [PyPI](https://pypi.org/project/requests/)
 
 
+## Run the script
+- Install required dependencies `pip install -r requirements.txt`
+- Run the main script `python main.py`
+
+- Some environment variables that affect the execution of the program:
+    - `API_ENDPOINT`: Endpoint where the data will be retrieved from. Default: `https://jsonplaceholder.typicode.com/todos/`
+    - `ID_FIELD`: Field in the data that will be used as ID in the saved filename. Default: `id`
+
+
 ## Running tests
 
 - Install dev dependencies `pip install -r requirements-dev.txt`
